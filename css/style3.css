@@ -1,7 +1,7 @@
 nav {
     background-color: #273b5e;
     height: 90px;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 999;
@@ -12,7 +12,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 8px;
+    /* padding: 8px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,12 +22,12 @@ nav ul {
 
 .web {
     display: flex;
-    margin: 10px;
+    /* margin: 10px; */
     font-family: Muli, sans-serif;
 }
 
 nav li {
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 nav img {
@@ -127,6 +127,7 @@ p {
 .img_main {
     height: 600px;
     width: 100%;
+    padding-top: 0px;
 }
 
 .btn1:hover {
@@ -156,7 +157,7 @@ p {
     height: 250px;
     margin-top: 130px;
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 0px;
 
     position: absolute;
     display: flex;
@@ -233,6 +234,8 @@ h3 {
     margin-top: 200px;
     margin-left: 200px;
     margin-bottom: 4px;
+  /* border: .3px solid rgb(244, 8, 8); */
+
 }
 
 .sec h3 {
@@ -282,6 +285,7 @@ p {
 
 .career {
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
     margin-right: 0px;
@@ -292,16 +296,17 @@ p {
 
 .career-logo {
 
+/* left: 20px; */
     transition: .4s;
     cursor: pointer;
     border: 1px solid rgb(246, 14, 14);
     border-radius: 5px;
     margin-bottom: 20px;
-    padding: 80px;
+    padding: 20px;
 }
 
 .logo1 {
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .btn3:hover {
@@ -324,6 +329,7 @@ p {
 }
 .testinomials {
     display: block;
+    /* border: 5px solid rebeccapurple; */
 }
 
 .testinomials .container {
@@ -352,6 +358,7 @@ font-size: 32px;
 color: #273b5e;
 font-family: Muli, sans-serif;
 }
+
 
 .ContainerMessage {
     margin-bottom: 25px;
@@ -423,7 +430,7 @@ font-family: Muli, sans-serif;
     color: yellow;
 }
 .btn2 {
-    border-radius: 8px;
+    border-radius: 80px;
     height: 50px;
     width: 180px;
     background-color: #263b5e;

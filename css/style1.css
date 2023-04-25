@@ -1,3 +1,7 @@
+.baabtra{
+  max-width: 100%;
+    height: auto;
+}
 nav {
   background-color: #273b5e;
   height: 100px;
@@ -218,7 +222,7 @@ img {
 .sub {
   width: 250px;
   height: 250px;
-  padding: 0px;
+  padding-top: 30px;
   margin: 5px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
@@ -255,7 +259,7 @@ img {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 10px;
+  /* margin: 10px; */
   padding-top: 100px;
   box-shadow: 0 8px 16px 0 rgba(144, 171, 222, 0.2);
   width: 100%;
@@ -264,10 +268,12 @@ img {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 10px;
+  /* margin: 10px; */
   padding-top: 0px;
   box-shadow: 0 8px 16px 0 rgba(144, 171, 222, 0.2);
   width: 100%;
+  /* border: .3px solid rgb(223, 31, 31); */
+
 }
 
 h4 {
@@ -288,6 +294,10 @@ h4 {
   background: #fff;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, .04);
   border-top: 0;
+  margin-right: 0px;
+  /* border: .3px solid rgb(229, 12, 12); */
+
+
 }
 
 .main2 p {
@@ -382,23 +392,31 @@ h3 {
 .main4 {
   padding: 100px 0;
   display: inline;
+  /* border: .3px solid rgb(232, 7, 7); */
+
 
 }
 
 .sub1 {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  /* width: 100%; */
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  /* margin-right: auto; */
+  /* position: relative; */
+  margin-left: 0px;
+  margin-right: 0px;
+  /* border: 5px solid rebeccapurple; */
+}
+.sub11{
+  /* position: relative; */
 }
 
 .row {
   text-align: Center;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* margin-right: -15px;
+  margin-left: -15px; */
 
 }
 
@@ -414,6 +432,7 @@ h3 {
 .a2 {
   display: flex;
   justify-content: center;
+  /* border: 5px solid rebeccapurple; */
 }
 .comp {
   padding: 30px;
@@ -433,6 +452,7 @@ h3 {
   flex-direction: row;
   border: .3px solid white;
   left: 0;
+  margin-right: 0px;
 
 
 }
@@ -440,6 +460,8 @@ h3 {
 .div_sec2 {
   width: 70%;
   padding: 100PX;
+  /* border: .3px solid rgb(224, 13, 13); */
+
 }
 
 .img_two {
@@ -531,10 +553,10 @@ h3 {
   color: #07294d
 }
 .honour_class2 p {
-  display: block;
-  padding-left: 500px;
+  /* display: block; */
+  /* padding-left: 500px; */
   padding-top: 30px;
-  padding-right: 100px;
+  /* padding-right: 100px; */
   padding-bottom: 80px;
   letter-spacing: 2px;
   font-family: Muli, sans-serif;
@@ -548,11 +570,11 @@ h3 {
   border: 5px solid blue;
 }
 .career {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  /* width: 100%; */
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
   margin-top: 0px;
 }
 .career-logo {
@@ -752,6 +774,8 @@ h3 {
   width: 50px;
   border-radius: 50px;
   margin: 5px;
+  display: flex;
+  justify-content: center;
 
   background-color: #fff;
 }
